@@ -15,6 +15,12 @@
 		837223FE2553F1C2003A7058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837223FC2553F1C2003A7058 /* LaunchScreen.storyboard */; };
 		837224092553F1C3003A7058 /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837224082553F1C3003A7058 /* SimpsonBookTests.swift */; };
 		837224142553F1C3003A7058 /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837224132553F1C3003A7058 /* SimpsonBookUITests.swift */; };
+		837224252553F310003A7058 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837224242553F310003A7058 /* detailsVC.swift */; };
+		8372242E25541DFD003A7058 /* lisa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8372242C25541DFD003A7058 /* lisa.jpeg */; };
+		8372242F25541DFD003A7058 /* marge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8372242D25541DFD003A7058 /* marge.jpg */; };
+		8372243525541E0F003A7058 /* homer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8372243325541E0F003A7058 /* homer.jpg */; };
+		8372243625541E0F003A7058 /* bart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8372243425541E0F003A7058 /* bart.jpg */; };
+		8372243B25543624003A7058 /* Simpsons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372243A25543624003A7058 /* Simpsons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		8372240F2553F1C3003A7058 /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837224132553F1C3003A7058 /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		837224152553F1C3003A7058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837224242553F310003A7058 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		8372242C25541DFD003A7058 /* lisa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lisa.jpeg; path = ../../../../../Downloads/lisa.jpeg; sourceTree = "<group>"; };
+		8372242D25541DFD003A7058 /* marge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marge.jpg; path = ../../../../../Downloads/marge.jpg; sourceTree = "<group>"; };
+		8372243325541E0F003A7058 /* homer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homer.jpg; path = ../../../../../Downloads/homer.jpg; sourceTree = "<group>"; };
+		8372243425541E0F003A7058 /* bart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bart.jpg; path = ../../../../../Downloads/bart.jpg; sourceTree = "<group>"; };
+		8372243A25543624003A7058 /* Simpsons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,15 @@
 		837223F02553F1BE003A7058 /* SimpsonBook */ = {
 			isa = PBXGroup;
 			children = (
+				8372243425541E0F003A7058 /* bart.jpg */,
+				8372243325541E0F003A7058 /* homer.jpg */,
+				8372242C25541DFD003A7058 /* lisa.jpeg */,
+				8372242D25541DFD003A7058 /* marge.jpg */,
 				837223F12553F1BE003A7058 /* AppDelegate.swift */,
 				837223F32553F1BE003A7058 /* SceneDelegate.swift */,
 				837223F52553F1BE003A7058 /* ViewController.swift */,
+				837224242553F310003A7058 /* detailsVC.swift */,
+				8372243A25543624003A7058 /* Simpsons.swift */,
 				837223F72553F1BE003A7058 /* Main.storyboard */,
 				837223FA2553F1C2003A7058 /* Assets.xcassets */,
 				837223FC2553F1C2003A7058 /* LaunchScreen.storyboard */,
@@ -232,7 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				837223FE2553F1C2003A7058 /* LaunchScreen.storyboard in Resources */,
+				8372243525541E0F003A7058 /* homer.jpg in Resources */,
 				837223FB2553F1C2003A7058 /* Assets.xcassets in Resources */,
+				8372242F25541DFD003A7058 /* marge.jpg in Resources */,
+				8372243625541E0F003A7058 /* bart.jpg in Resources */,
+				8372242E25541DFD003A7058 /* lisa.jpeg in Resources */,
 				837223F92553F1BE003A7058 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				837223F62553F1BE003A7058 /* ViewController.swift in Sources */,
+				837224252553F310003A7058 /* detailsVC.swift in Sources */,
 				837223F22553F1BE003A7058 /* AppDelegate.swift in Sources */,
 				837223F42553F1BE003A7058 /* SceneDelegate.swift in Sources */,
+				8372243B25543624003A7058 /* Simpsons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
