@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let bart = Simpson(simpsonName: "Bart Simpson", simpsonJob: "Student", simpsonImage: UIImage(named: "bart")!)
 
-        let marge = Simpson(simpsonName: "Homer Simpson", simpsonJob: "House Wife", simpsonImage: UIImage(named: "marge")!)
+        let marge = Simpson(simpsonName: "Marge Simpson", simpsonJob: "House Wife", simpsonImage: UIImage(named: "marge")!)
 
         let lisa = Simpson(simpsonName: "Lisa Simpson", simpsonJob: "Student", simpsonImage: UIImage(named: "lisa")!)
 
